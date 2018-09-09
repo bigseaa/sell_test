@@ -15,3 +15,6 @@ server:
 #    console: "%d - %msg%n"
 #  path: /var/log/tomcat/
 #  file: /var/log/tomcat/sell/
+wechat:
+  mpAppId: wx4d1ba071d1cb8f2a
+  mpAppSecret: 20df9a9a96b29ad6395e7a657c2fc99a
