@@ -88,12 +88,12 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public OrderDTO findOne(String orderId) {
-        OrderMaster orderMaster = orderMasterDao.findOne("121212");
+        OrderMaster orderMaster = orderMasterDao.findOne(orderId);
         if(orderMaster == null) {
             throw new SellException(ResultEnum.ORDER_NOT_EXIST);
         }
 
-        List<OrderDetail> orderDetailList = orderDetailDao.findByOrOrderId("121212");
+        List<OrderDetail> orderDetailList = orderDetailDao.findByOrOrderId(orderId );
         if(CollectionUtils.isEmpty(orderDetailList)) {
             throw new SellException(ResultEnum.ORDERDETAIL_NOT_EXIST);
         }

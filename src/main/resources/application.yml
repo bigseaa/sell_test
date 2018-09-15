@@ -16,5 +16,11 @@ server:
 #  path: /var/log/tomcat/
 #  file: /var/log/tomcat/sell/
 wechat:
-  mpAppId: wx4d1ba071d1cb8f2a
-  mpAppSecret: 20df9a9a96b29ad6395e7a657c2fc99a
+  #mpAppId: wx4d1ba071d1cb8f2a
+  mpAppId: wxd898fcb01713c658
+  #mpAppSecret: 20df9a9a96b29ad6395e7a657c2fc99a
+  mchId: 1483469312
+  mchKey: C5245D70627C1F8E9964D494B0735025
+  keyPath: files/01d3059e868cedea3b361b2ad1c05254.p12
+  notifyUrl: http://bigsea.natapp1.cc/sell/pay/notify
+  #openid=o8ivY1d8HyaX1xDWVtOciP9S27_M
